@@ -1,5 +1,7 @@
 @echo off
+set res=""
 set filename=%1
-start javac ./StandardLibrary.java
-start j--.exe %1
-start java -jar jasmin.jar %filename:~0,-3%
+start /b javac ./StandardLibrary.java
+start /b j--.exe %1
+pause
+start /b java -jar jasmin.jar %filename:~0,-3%

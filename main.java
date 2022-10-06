@@ -1,9 +1,11 @@
-// Programma che calcola il 
-// valore 1 + 2 * 3 
-// e lo visualizza sul terminale
+double r = 0;
+double num1 = 0;
+double num2 = 0;
 
-int result;
+num1 = getDouble("Inserisci un numero 1");
+num2 = getDouble("Inserisci un numero 2")
 
-result = 1 + 2 * 3;
-println("risultato: " + result);
+r = num1 + num2;
+println("risultato: " + r);
+
 
