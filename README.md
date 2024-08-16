@@ -5,4 +5,8 @@ The file javaCompile.bat can be used to automate the compiling of Java-- program
 ## How to compile java--
 ``` 
 ./javaCompile.bat file_to_compile
+
+Example
+./javaCompile.bat main.java
+
 ```
